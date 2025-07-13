@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cynthia Ugwu</title>
+    <link rel="stylesheet" href="locomotive.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -12,58 +13,120 @@
   </head>
   <body>
     <div>
+      <div class="miniCircle"></div>
+
       <div id="main">
-        <!-- <div class="hero">
+        <div class="hero">
           <div class="nav">
             <a href="#">Cynthia Ugwu</a>
             <h2>MENU+</h2>
           </div>
 
           <div class="heading">
-            <h1>Product</h1>
+            <div class="bounding">
+              <h1 class="boundingElem">Product</h1>
+            </div>
+
             <div class="blocktext">
-              <h1 class="secondH1">Designer</h1>
-              <h5>based in toronto</h5>
+              <div class="bounding">
+                <h1 class="secondH1 boundingElem">Designer</h1>
+              </div>
+
+              <div class="bounding">
+                <h5 class="boundingElem">based in toronto</h5>
+              </div>
             </div>
           </div>
 
           <div class="shortHeading">
-            <h5>available for freelance</h5>
-            <h5>work from may 23'</h5>
+            <div class="bounding">
+              <h5 class="boundingElem">available for freelance</h5>
+            </div>
+            <div class="bounding">
+              <h5 class="boundingElem">work from may 23'</h5>
+            </div>
           </div>
 
           <div class="herofooter">
             <a href="#"
               >previously worked at YML <i class="ri-arrow-right-up-line"></i
             ></a>
-            <a href="#">protopie ambassador <i class="ri-arrow-right-up-line"></i
+            <a href="#"
+              >protopie ambassador <i class="ri-arrow-right-up-line"></i
             ></a>
             <div class="iconset">
-                <div class="circle"><i class="ri-arrow-down-line"></i></div>
-                <div class="circle"><i class="ri-arrow-down-line"></i></div>
+              <div class="circle"><i class="ri-arrow-down-line"></i></div>
+              <div class="circle"><i class="ri-arrow-down-line"></i></div>
             </div>
           </div>
-        </div> -->
+        </div>
 
         <div class="second">
-            <div class="elem">
-                <img src="./Assets/Images/plug.webp" alt="Plug Image">
-                <h1>the plug</h1>
-                <h5>2022</h5>
-            </div>
-            <div class="elem">
-                <img src="./Assets/Images/ixperience.webp" alt="Ixperience Image">
-                <h1>ixperience</h1>
-                <h5>2022</h5>
-            </div>
-            <div class="elem elemlast">
-                <img src="./Assets/Images/hudu.webp" alt="Hudu Image">
-                <h1>hudu</h1>
-                <h5>2022</h5>
-            </div>
+          <div class="elem">
+            <img src="./Assets/Images/plug.webp" alt="Plug Image" />
+            <h1>the plug</h1>
+            <h5>2022</h5>
+          </div>
+          <div class="elem">
+            <img src="./Assets/Images/ixperience.webp" alt="Ixperience Image" />
+            <h1>ixperience</h1>
+            <h5>2022</h5>
+          </div>
+          <div class="elem elemlast">
+            <img src="./Assets/Images/hudu.webp" alt="Hudu Image" />
+            <h1>hudu</h1>
+            <h5>2022</h5>
+          </div>
+        </div>
+
+        <div class="about">
+          <img
+            src="https://cynthiaugwu.com/images/cynthia.webp"
+            alt="aboutimage"
+          />
+          <div class="textabout">
+            <h5>(About me)</h5>
+            <p>
+              I'm a product and motion designer who loves creating things that
+              are not just eye candy but also fix life's little hiccups. When
+              I'm not glued to my computer like a robot or scribbling on my
+              iPad, you might catch me leveling up in video games, snapping
+              photos like a wannabe pro, or watching football because football
+              is life. My design philosophy? Keep it snazzy, make it work, and
+              sprinkle in a bit of fun. I'm the designer you want on your team
+              if you want people to exclaim, "I need that in my life!".
+            </p>
+            <a href="#">Let's Talk</a>
+          </div>
+        </div>
+
+        <div class="subscribe">
+          <h5>(forget to mention)</h5>
+          <h3>
+            subscribe to my channel <i class="ri-arrow-right-up-line"></i>
+          </h3>
+        </div>
+
+        <div class="footer">
+          <div class="footerLeft">
+            <h5>2023 &copy;</h5>
+            <h5>0:05 AM EST</h5>
+          </div>
+          <div class="footerRight">
+            <a href="#">dribble</a><a href="#">instagram</a
+            ><a href="#">linkedin</a><a href="#">twitter</a>
+          </div>
         </div>
       </div>
     </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
